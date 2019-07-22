@@ -1,16 +1,21 @@
 *{margin: 0;
   padding: 0;}
 
-
-  #topBarSlider{
-    height: 500px;
-    width: 100vw;
-    overflow:hidden;
-    display: flex;
+  #topImgContainer{
+    overflow: hidden;
   }
 
-  #topBarSlider img{
+  #topSlider{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+    
+  }
+
+  #topSlider img{
     width: 500px;
     height: auto;
+   
     
   }

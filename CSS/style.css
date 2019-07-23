@@ -3,19 +3,33 @@
 
   #topImgContainer{
     overflow: hidden;
+    height: 500px;
   }
 
   #topSlider{
     height: 500px;
     width: 100%;
-    
-    display: flex;
-    
+    display: inline;
+    overflow: hidden;
   }
 
-  #topSlider img{
+  .topImg{
     width: 500px;
     height: auto;
+    list-style: none;
+    flex-direction: row;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    
+    
+    
+    
    
     
   }
+
+  .topImg img {
+    width: 500px;
+    height: auto;
+    
+  } 

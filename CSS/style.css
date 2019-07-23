@@ -9,7 +9,7 @@
   #topSlider{
     height: 500px;
     width: 100%;
-    display: inline;
+    display: flex;
     overflow: hidden;
   }
 
@@ -20,16 +20,12 @@
     flex-direction: row;
     display: inline-flex;
     flex-wrap: nowrap;
-    
-    
-    
-    
-   
-    
+    position:relative
   }
 
   .topImg img {
     width: 500px;
     height: auto;
+    
     
   } 

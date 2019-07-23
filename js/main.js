@@ -49,5 +49,5 @@ $(document).ready(function(){
 function move(){
    // $(".topImg").animate({ left:"10px"},500);
     console.log("s");
-    //$(".topImg").animate({left:"100px"},1000);
+    $(".topImg").animate({left:"100px"},1000);
 };

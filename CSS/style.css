@@ -22,27 +22,79 @@
     position: relative;
     width: auto;
     height: 60px;
-    display: block; 
+    display: block;
     right: 180px;
-    top: 80px;
-    
+    top: 100px;
+
   }
 
   a{
     text-decoration: none;
   }
 
+
+
   #logo{
-    width: 300px;
+    position: relative;
+    width: 500px;
     display: flex;
+    left: 100px;
+
+  }
+
+  #logo_paint{
+    width: 90px;
+    height: 70px;
+    position: relative;
+    top: 50px;
+  }
+
+  #T{
+    width: 80px;
+    height: 15px;
+    background: coral;
+    position: absolute;
+  }
+
+  #T::after{
+    width: 15px;
+    height: 70px;
+    left: 15px;
+    content: "";
+    background-color: coral;
+    position: absolute;
+   
+  }
+
+  #L{
+    width: 15px;
+    height: 45px;
+    position: absolute;
+    background: blue;
+    top: 25px;
+    left: 33px;
+  }
+
+  #L::after{
+    content: "";
+    
+    position: absolute;
+   
+    top: -13px;
+
+    border-top:5px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 8px solid blue;
     
   }
+  
   #topNav{
     position:relative;
-    font-family: 'Noto Sans TC', sans-serif;
-   
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    font-weight: 550;
     list-style: none;
-    font-size: 40px;
+    font-size: 25px;
     display: flex;
     
    }
@@ -80,12 +132,11 @@
 
   .sliderTitle{
     font-family: 'Noto Sans TC', sans-serif;
-    position: absolute;
+    position: relative;
     font-size: 1em;
     right:130px;
-    bottom: 0px;
-    text-align:right;
     font-size: 1.5em;
+    position: absolute;
     
     
   }

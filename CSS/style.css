@@ -192,24 +192,26 @@
   }
   #highTempProduct{
     z-index: 5;
+    position: absolute;
+    left: 575px;
    
   }
 
   #skipSlitTap{
     position: absolute;
-    left: 573px;
+    left: 575px;
     z-index: 4;
 }
 
 #label{
   position: absolute;
-    left: 573px;
+    left: 575px;
     z-index: 3;
 }
 
 #converting{
   position: absolute;
-  left: 573px;
+  left: 575px;
   z-index: 2;
 }
   

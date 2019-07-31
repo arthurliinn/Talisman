@@ -150,12 +150,37 @@
    #topNav li{
     padding: 10px;
     margin-left: 50px;
+    z-index: 10;
    }
 
    #topNav a{
      color: black;
    }
+   
+   #products{
+     position: absolute;
+     left: 140px;
+     top: 50px;
+     list-style: none;
+     background: #dae4ff;
+   }
 
+   #products li{
+    z-index: 10;
+    margin-left: 0px;
+    padding: 10px;
+    border: solid white 1px;
+    overflow: hidden;
+    
+   }
+   #products li a{
+    padding: 10px;
+    width: 186px;
+   }
+   #products li:hover{
+    padding: 10px;
+    background: #325ed8;
+   }
 
   #topImgContainer{
     height: 500px;
@@ -184,34 +209,60 @@
     font-family: 'Noto Sans TC', sans-serif;
     position: relative;
     font-size: 1em;
-    right:130px;
+    padding: 0px 10px;
+    right:0px;
+    top: 350px;
     font-size: 1.5em;
     position: absolute;
+    background: #FFFFFF;
+    color: #325ed8;
     
     
   }
   #highTempProduct{
     z-index: 5;
     position: absolute;
-    left: 575px;
+    left: 600px;
    
   }
 
   #skipSlitTap{
     position: absolute;
-    left: 575px;
+    left: 600px;
     z-index: 4;
 }
 
 #label{
   position: absolute;
-    left: 575px;
+    left: 600px;
     z-index: 3;
 }
 
 #converting{
   position: absolute;
-  left: 575px;
+  left: 600px;
   z-index: 2;
 }
   
+
+#companyIntro{
+  font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+  text-align: left;
+  background: #e8ffdd;
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  top: -100px;
+  left: 100px
+}
+#companyIntro h1{
+  color: #325ed8;
+  padding: 50px;
+}
+
+#companyIntro p{
+  font-weight: 800;
+  font-size: 1.5em;
+  padding: 0px 120px 120px;
+  
+}

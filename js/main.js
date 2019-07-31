@@ -28,7 +28,7 @@ function slider(){
        setTimeout(function(){
         n = 0
         $('#converting').fadeIn();
-       },1000);
+       },5000);
    }
     
     console.log(n);

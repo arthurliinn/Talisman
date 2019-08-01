@@ -3,8 +3,8 @@
 *{margin: 0;
   padding: 0;}
   body{
-    background-color: bisque;
-    background-image:-webkit-linear-gradient(left,#FFFFFF -20%,#ffd489 100%);
+    background-color: #FFFFFF;
+    
 }
 
  img{
@@ -13,9 +13,10 @@
  } 
   header{
     height: 170px;
-    background-image: -webkit-linear-gradient(top,#FFFFFF 0%,#dae4ff 50%) ;
+    background: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    border-bottom:solid #000000 0.5px; 
    
   }
 
@@ -162,14 +163,17 @@
      left: 140px;
      top: 50px;
      list-style: none;
-     background: #dae4ff;
+     background: #FFFFFF;
+     overflow: hidden;
+     height: 0;
+     transition: height .5s ease-in-out .1s;
    }
 
    #products li{
     z-index: 10;
     margin-left: 0px;
     padding: 10px;
-    border: solid white 1px;
+    border: solid #000000 0.3px;
     overflow: hidden;
     
    }
@@ -179,7 +183,7 @@
    }
    #products li:hover{
     padding: 10px;
-    background: #325ed8;
+    background: #ffa844;
    }
 
   #topImgContainer{
@@ -248,13 +252,20 @@
 #companyIntro{
   font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
   text-align: left;
-  background: #e8ffdd;
+  background: #FFFFFF;
   width: 1200px;
   height: 700px;
   position: relative;
-  top: -100px;
-  left: 100px
+  left: 100px;
+  border-right:solid rgb(216, 216, 216) 8px;
+  border-bottom:solid rgb(216,216,216) 5px;
+  border-top:solid rgb(180, 180, 180) 1px;
+  border-left:solid rgb(180, 180, 180) 0.5px;
+
 }
+
+
+
 #companyIntro h1{
   color: #325ed8;
   padding: 50px;
@@ -266,3 +277,29 @@
   padding: 0px 120px 120px;
   
 }
+
+footer{
+  height: 100px;
+  background-image: -webkit-linear-gradient(top,#FFFFFF 0%,#dae4ff 50%) ;
+  display: flex;
+  justify-content: center;
+}
+#footerIcon{
+  text-align: center;
+}
+.email{
+  left: 20px;
+  display: flex;
+}
+.fa-envelope:before {
+  font-size: 40px;
+  content: "\f0e0";
+}
+
+
+#LineID{
+  font-family: 'Noto Sans TC', sans-serif;
+  display: flex;
+  font-size: 25px;
+}
+

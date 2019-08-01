@@ -36,6 +36,27 @@ function slider(){
    
     
 };
+
+//navscroll
+
+$('#btn_products').mouseover(function(){
+        $('#products').css("height","321.56px");
+    });
+$('#btn_products').mouseout(function(){
+        $('#products').css("height","0px");
+    });
+
+ $('#products').mouseover(function(){
+        $('#products').css("height","321.56px");
+    });
+
+$('#products').mouseout(function(){
+    $('#products').css("height","0px");
+});
+
+$('#products li').mouseout(function(){
+    $('#products').css("height","0px");
+});
         
    
 

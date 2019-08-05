@@ -2,8 +2,24 @@
 @import url('https://fonts.googleapis.com/earlyaccess/cwtexkai.css');
 *{margin: 0;
   padding: 0;}
+
+  #loadingPage{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background:#FFFFFF; 
+    
+  }
+
+  #loadingPage h1{
+    position: relative;
+    left: 50%;
+    top: 50%;
+  }
   body{
     background-color: #FFFFFF;
+    overflow: hidden;
     
 }
 
@@ -220,31 +236,32 @@
     position: absolute;
     background: #FFFFFF;
     color: #325ed8;
+    border: solid .5px slategray;
     
     
   }
   #highTempProduct{
     z-index: 5;
     position: absolute;
-    left: 600px;
+    left: 300px;
    
   }
 
   #skipSlitTap{
     position: absolute;
-    left: 600px;
+    left: 300px;
     z-index: 4;
 }
 
 #label{
   position: absolute;
-    left: 600px;
+    left: 300px;
     z-index: 3;
 }
 
 #converting{
   position: absolute;
-  left: 600px;
+  left: 300px;
   z-index: 2;
 }
   
@@ -254,11 +271,12 @@
   text-align: left;
   background: #FFFFFF;
   width: 1200px;
-  height: 700px;
+  height: 500px;
+  margin-bottom: 200px;
   position: relative;
   left: 100px;
-  border-right:solid rgb(216, 216, 216) 8px;
-  border-bottom:solid rgb(216,216,216) 5px;
+  border-right:solid rgb(216, 216, 216) 5px;
+  border-bottom:solid rgb(216,216,216) 3px;
   border-top:solid rgb(180, 180, 180) 1px;
   border-left:solid rgb(180, 180, 180) 0.5px;
 
@@ -279,27 +297,53 @@
 }
 
 footer{
-  height: 100px;
+  height: 200px;
   background-image: -webkit-linear-gradient(top,#FFFFFF 0%,#dae4ff 50%) ;
   display: flex;
   justify-content: center;
+  padding-top: 80px;
+  
+}
+
+footer p{
+  font-family: 'Noto Sans TC', sans-serif;
 }
 #footerIcon{
   text-align: center;
+  
 }
 .email{
-  left: 20px;
+  position: relative;
+  top: 30px;
+  padding-right: 80px;
   display: flex;
 }
 .fa-envelope:before {
+  
   font-size: 40px;
   content: "\f0e0";
 }
 
 
 #LineID{
+  
   font-family: 'Noto Sans TC', sans-serif;
+  display: inline-flex;
+  width: 100px;
+}
+#connect{
   display: flex;
-  font-size: 25px;
+  margin-bottom:50px; 
+}
+
+#connect_one{
+  margin-right: 60px;
+  display: flex;
+}
+#connect_two{
+  text-align: left;
+  padding-left: 50px;
+  margin-left:10px;
+  border-left: solid 1px #000000; 
 }
 

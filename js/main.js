@@ -1,6 +1,22 @@
+//loading
+/*$(document).ready(function(){
+  
+    $('#loadingPage').fadeOut(2000);
+    $('body').css("overflow", "auto");
+    
+
+});*/
+
+$(window).on('load',function () {
+    $('#loadingPage').fadeOut(2000);
+    $('body').css("overflow", "auto");
+
+});
+
+
 //topslider
 
-$(document).ready(function(){
+$(window).on('load',function(){
   
     setInterval("slider()",5000);
     

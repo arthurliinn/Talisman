@@ -18,7 +18,7 @@ $(window).on('load',function () {
 
 $(window).on('load',function(){
   
-    setInterval("slider()",5000);
+    setInterval("slider()",6000);
     
 
 });
